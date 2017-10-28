@@ -1,9 +1,9 @@
-## Oxy pool distribution software ##
+# Oxy pool distribution software
 
 This software is created by lisk delegate "dakk", 
 Please consider a small donation if you use this software: "2324852447570841050L" for lisk or "7725849364280821971S" for shift. @Seatrips also likes beer :) "2640685646054674464L" for the changes.
 
-# Prerequisitions
+### Prerequisitions
 
 ```
 sudo apt-get install python3
@@ -44,7 +44,7 @@ Finally edit poollogs.json and put in lastpayout the unixtimestamp (http://www.u
 
 Then copy to /docs folder or /html folder when using your own dedicated server.
 
-# Running it
+### Running it
 
 ```
 python3 liskpool.py
