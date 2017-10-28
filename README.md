@@ -1,4 +1,4 @@
-Shift pool distribution software
+## Oxy pool distribution software ##
 
 This software is created by lisk delegate "dakk", please consider a small donation if you use this software: "2324852447570841050L" for lisk or "7725849364280821971S" for shift. @Seatrips also likes beer :) "2675385658327038858S" for the changes
 Prerequisitions
@@ -60,7 +60,8 @@ This 'batch.sh' file will run liskpool, then payments.sh and copy the poollogs.j
 
 For easy documentation for running this on your own server
 check https://github.com/seatrips/easy-apache2-site
-License
+
+## License ##
 
 Copyright 2017 Davide Gessa
 
