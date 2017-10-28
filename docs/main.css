@@ -2,12 +2,16 @@
     MAIN CSS OXYCOIN POOL
 */
 body{
+    background-image: url ( 'https://www.oneseaecosystem.net/wp-content/uploads/sites/2/2017/03/onesea_banner_1-1-2000x1339.jpg' ) ; 
+    background-repeat; no-repeat;
+    background-attachment: fixed;
+}
+{ 
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: normal;
 }
 .header{
-    background: #04254E;
     color: #FFFFFF;
     text-align: left;
     line-height: 80px;
