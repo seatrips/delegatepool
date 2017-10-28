@@ -4,8 +4,8 @@ import sys
 import time
 import copy
 
-NODE = "https://wallet.rise.vision"
-NODEPAY = "http://localhost:5555"
+NODE = "https://wallet.oxycoin.io"
+NODEPAY = "http://localhost:10000"
 PUBKEY = ""
 LOGFILE = 'poollogs.json'
 PERCENTAGE = 80
