@@ -1,15 +1,19 @@
 ## Oxy pool distribution software ##
 
-This software is created by lisk delegate "dakk", please consider a small donation if you use this software: "2324852447570841050L" for lisk or "7725849364280821971S" for shift. @Seatrips also likes beer :) "2675385658327038858S" for the changes
+This software is created by lisk delegate "dakk", please consider a small donation if you use this software: "2324852447570841050L" for lisk or "7725849364280821971S" for shift. @Seatrips also likes beer :) "2640685646054674464L" for the changes
 Prerequisitions
 
+```
 sudo apt-get install python3
 sudo apt-get install python3-requests
 sudo apt-get install curl
+```
 
 Download / clone repo
 
+```
 git clone https://www.github.com/seatrips/delegatepool
+```
 
 then rename folder to your own pool site
 Configuration
@@ -37,11 +41,15 @@ Now edit /docs/index.html and customize the webpage. When using a dedicated serv
 Finally edit poollogs.json and put in lastpayout the unixtimestamp (http://www.unixtimestamp.com/) of your last payout or the date of pool starting and donations adress and amount then copy to /docs folder or /html folder when using your own dedicated server
 Running it
 
+```
 python3 liskpool.py
+```
 
 It produces a file "payments.sh" with all payments shell commands. Run this file with:
 
+```
 bash payments.sh
+```
 
 The payments will be broadcasted (every 10 seconds). At the end you can move your generated poollogs.json to docs/poollogs.json and send the update to your git repo.
 
@@ -50,18 +58,22 @@ Batch mode
 
 The script is also runnable by cron using the -y argument:
 
+```
 python3 liskpool.py -y`
+```
 
 or
 
+```
 bash batch.sh
+```
 
 This 'batch.sh' file will run liskpool, then payments.sh and copy the poollogs.json in the docs folder.
 
 For easy documentation for running this on your own server
 check https://github.com/seatrips/easy-apache2-site
 
-## License ##
+## License
 
 Copyright 2017 Davide Gessa
 
