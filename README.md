@@ -5,6 +5,8 @@ Please consider a small donation if you use this software: "2324852447570841050L
 
 ### Prerequisitions
 
+!!! install nodejs 6 or higher, it won't work without
+
 ```
 sudo apt-get install python3
 sudo apt-get install python3-requests
@@ -14,13 +16,13 @@ sudo apt-get install curl
 Download / clone repo
 
 ```
-git clone https://www.github.com/seatrips/delegatepool
+git clone https://github.com/dakk/lisk-pool
 ```
 
-then rename folder to your own pool site
+then rename folder to your own pool site if you like
 Configuration
 
-Fork this repo; edit liskpool.py and modify the first lines with your settings:
+Edit config.json
 
     PUBKEY: your delegate pubkey
 
@@ -43,6 +45,15 @@ Now edit /docs/index.html and customize the webpage. When using a dedicated serv
 Finally edit poollogs.json and put in lastpayout the unixtimestamp (http://www.unixtimestamp.com/) of your last payout or the date of pool starting and donations adress and amount. 
 
 Then copy to /docs folder or /html folder when using your own dedicated server.
+
+### If you are using lisk or rise you need to dpos-api-fallback:
+
+```
+git clone https://github.com/vekexasia/dpos-api-fallback (this should be done in the lisk-pool folder)
+cd dpos-api-fallback
+npm install
+npm run package
+```
 
 ### Running it
 
